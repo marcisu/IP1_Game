@@ -48,24 +48,24 @@ function preload()
     soundFormats('mp3','wav');
     
     // preLoaded sounds:
-    backgroundMusic = loadSound('assets/koto_shimasen.wav');
+    backgroundMusic = loadSound('./assets/koto_shimasen.wav');
     
-    jumpSound = loadSound('assets/jump.wav');
+    jumpSound = loadSound('./assets/jump.wav');
     jumpSound.setVolume(0.3);
     
-    stabSound = loadSound('assets/Stab.wav');
+    stabSound = loadSound('./assets/Stab.wav');
     stabSound.setVolume(0.6);
     
-    fallSound = loadSound('assets/fall.wav');
+    fallSound = loadSound('./assets/fall.wav');
     fallSound.setVolume(0.3);
     
     collectSound = loadSound('assets/shrine.wav');
     collectSound.setVolume(0.6);
     
-    gameOverSound = loadSound('assets/gameOver.wav');
+    gameOverSound = loadSound('./assets/gameOver.wav');
     gameOverSound.setVolume(0.3);
     
-    successSound = loadSound('assets/success.mp3');
+    successSound = loadSound('./assets/success.mp3');
     
 }
 
